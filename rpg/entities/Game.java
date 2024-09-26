@@ -6,7 +6,7 @@ public class Game {
     private Player player;
     private Enemy enemy;
 
-    public Game() {
+    public Game(Player player, Enemy enemy) {
         this.player = new Player("Héroe");
         this.enemy = new Enemy("Goblin");
     }
